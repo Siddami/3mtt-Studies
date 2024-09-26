@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;  /* Horizontal centering */
+  align-items: center;      /* Vertical centering */
+  height: 100vh; 
+}
+
+div{
+    margin: auto;
+    gap: 1.5rem;
+    padding: 2rem;
+    width: 80%;
+    background: #5c5c5c;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+img{
+    width: 50%;
+    border: 1px solid aliceblue;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
